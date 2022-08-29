@@ -1,0 +1,76 @@
+.container-weather {
+   display: block;
+   margin: 100px auto;
+   width: 350px;
+   height: 550px;
+   border: 2px solid rgb(133, 132, 132);
+   padding: 7px;
+   display: flex;
+   flex-flow: column;
+   justify-content: center;
+   background-color: rgb(168, 217, 254);
+   border-radius: 5px;
+   font-size: 24px;
+}
+
+p {
+   font-size: 20px;
+}
+
+h3, p {
+   display: inline;
+   text-align: center;
+}
+
+.feels-like {
+   font-style: italic;
+   font-size: 18px;
+}
+
+.city {
+   font-weight: bold;
+   color: rgb(247, 255, 8);
+}
+
+.sky-state {
+   font-size: 20px;
+   font-style: italic;
+}
+
+.container-sky-state-img {
+   display: block;
+   margin: 0 auto;
+}
+
+hr {
+   width: 270px;
+   border: 0.5px solid rgb(133, 132, 132);
+
+}
+.container-weather{
+   margin: 10px auto 15px;
+   padding: 5px;
+}
+.container-selectCity{
+   display: block;
+   margin: auto;
+}
+select {
+   
+   width: 260px;
+   height: 40px;
+   border: 1px solid rgb(133, 132, 132);
+   border-radius: 5px;
+   font-size: 16px;
+   cursor: pointer;
+   border: 2px solid rgb(247, 255, 8);
+}
+
+select:hover {
+   border: 2px solid rgb(247, 255, 8);
+   background-color: rgba(247, 255, 8, 0.753);
+}
+
+option {
+   font-size: 16px;
+}
