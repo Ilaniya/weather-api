@@ -5,6 +5,7 @@ const param = {
 
 const cities = {
   703448: "Kyiv",
+  690548: "Uzhgorod",
   2643743: "London",
   702550: "Lviv",
   5128581: "New York",
