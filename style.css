@@ -47,10 +47,10 @@ hr {
    border: 0.5px solid rgb(133, 132, 132);
 
 }
-.container-weather{
+/* .container-weather{
    margin: 10px auto 15px;
    padding: 5px;
-}
+} */
 .container-selectCity{
    display: block;
    margin: auto;
@@ -65,7 +65,6 @@ select {
    cursor: pointer;
    border: 2px solid rgb(247, 255, 8);
 }
-
 select:hover {
    border: 2px solid rgb(247, 255, 8);
    background-color: rgba(247, 255, 8, 0.753);
